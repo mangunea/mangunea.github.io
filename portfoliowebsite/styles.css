@@ -1,0 +1,14 @@
+body {
+    background-color: white;
+    font-family: 'Lucida Console';
+}
+
+.h1 {
+    color: #7785A1;
+    font-size: medium;
+}
+
+.p {
+    color: #A17E77;
+    font-size: large;
+}
