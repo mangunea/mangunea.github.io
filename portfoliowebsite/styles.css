@@ -3,12 +3,12 @@ body {
     font-family: 'Lucida Console';
 }
 
-.h1 {
+h1 {
     color: #7785A1;
     font-size: medium;
 }
 
-.p {
+p {
     color: #A17E77;
     font-size: large;
 }
