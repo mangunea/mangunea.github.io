@@ -1,10 +1,7 @@
-body {
-    background-color: beige;
-}
+
 
 h1 {
     color: #7785A1;
-    font-family: 'Lucida Console';
     font-size: medium;
 }
 
@@ -21,6 +18,33 @@ h1 {
     position:fixed;
     right: 0;
     bottom: 0;
+    min-width: 100%;
+    max-width: 100%;
     z-index: -1;
     object-fit: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 100%;
+
+}
+
+.name {
+    text-align: left;
+    padding: 20px;
+    right: 70%;
+    bottom: 220%;
+    font-size: 100px;
+    margin: 20px, 20px, 20px, 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
 }
